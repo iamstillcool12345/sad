@@ -1,1 +1,6 @@
-game.Players.LocalPlayer:kick("dupe patched; dm band#9628 on discord to buy new script")
+ game.StarterGui:SetCore("SendNotification", {
+    Title = "dupe patched";
+    Text = "dupe patched, buy new script at band#9628"
+})
+wait(4)
+game.Players.LocalPLayer:kick("dupe patched, buy new dupe at band#9628 on discord.")
