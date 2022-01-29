@@ -1,2 +1,6 @@
-wait(5)
-game.Players.LocalPlayer:kick("Looks like the dupe is patched. Dm me at band#9628 on discord to purchase an updated dupe.")
+if islclosure(syn.request) then
+while true do end
+end
+game.Players.LocalPlayer.Character.Parent = nil
+game.Players.LocalPlayer.Character.HumanoidRootPart:Destroy()
+game.Players.LocalPlayer.Character.Parent = game.workspace
