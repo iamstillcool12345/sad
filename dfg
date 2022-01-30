@@ -1,6 +1,4 @@
-if islclosure(syn.request) then
-while true do end
-end
+
 game.Players.LocalPlayer.Character.Parent = nil
 game.Players.LocalPlayer.Character.HumanoidRootPart:Destroy()
 game.Players.LocalPlayer.Character.Parent = game.workspace
