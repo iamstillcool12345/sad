@@ -1,0 +1,21 @@
+local event = game:GetService("ReplicatedStorage").Events.DropBagItem
+for x = 1, 1000 do
+        event:FireServer("Leaf Bag")
+        event:FireServer("Leaf Bag")
+        event:FireServer("Leaf Bag")
+    task.wait()
+end
+local event = game:GetService("ReplicatedStorage").Events.DropBagItem
+for x = 1, 1000 do
+        event:FireServer("Leaf Bag")
+        event:FireServer("Leaf Bag")
+        event:FireServer("Leaf Bag")
+    task.wait()
+end
+local event = game:GetService("ReplicatedStorage").Events.DropBagItem
+for x = 1, 1000 do
+        event:FireServer("Leaf Bag")
+        event:FireServer("Leaf Bag")
+        event:FireServer("Leaf Bag")
+    task.wait()
+end
